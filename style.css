@@ -1,0 +1,420 @@
+body{
+    background-color:#F5EFE6;
+    font-family: Arial,  ;
+     margin: 0;
+  padding: 0;
+   background: linear-gradient(to right,#f0eeeb, rgb(230, 214, 196));
+
+}
+
+header{
+    background-color: #1F3A5F;
+    padding: 0px;;
+    color: white;
+    display: flex;
+   position: sticky;
+    top: 0;
+    flex: 1 1 200px;
+   background: linear-gradient(to right, rgb(35, 83, 228), rgb(39, 57, 109));
+   justify-content: space-between;
+   
+}
+small{
+    font-size: medium;    
+}
+h2{
+    text-shadow: 1px 1px 5px black;
+}
+
+nav{
+    justify-content: space-around;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem; 
+  margin: 0;
+  padding: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s; /* smooth hover effect */
+}
+nav a:hover{ 
+    color: black;
+
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 1rem;
+  height: 420px;
+  color: white; 
+  display: flex;
+  font-family: Georgia, 'Times New Roman',  serif;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url('The\ Sopranos\ House\ Hits\ The\ Market.jpg')  center no-repeat;
+  background-size: cover;
+  
+}
+
+   
+
+.hero-h{
+    
+     position: absolute;
+  
+}
+img{
+    height: 70vh;
+    width: 140vh;
+    
+}
+.butons{
+    padding: 10px; 
+     display: flex;
+    justify-content: center;
+    gap: 80px;
+    
+}
+.home-button{
+    padding: 1.3rem;
+    background-color: #683e2f;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    
+}
+.home-button:hover{
+    background-color: #F5EFE6;
+    color: #1c3457;
+    
+}
+.description{
+    background-color: white;
+    color: #2C2C2C;
+    text-align: center;
+    padding: 20px;
+    font-family: 'description-font', sans-serif;
+    
+}
+@font-face{
+    font-family: 'description-font';
+    src: url('font2/DMSerifText-Regular.ttf');
+}
+footer{
+    background-color: #2C2C2C;
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    font-size: large;
+    margin-bottom: 0;
+    align-content: center;
+   
+}
+.homes{
+    display: grid;
+    grid-template-columns: repeat(4 150px);
+    grid-template-rows: repeat(3 300px);
+    grid-gap: 50px 90px ;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+#box1{
+          display: grid;
+    grid-template-columns: repeat(1 150px);
+    grid-template-rows: repeat(3 200px);
+    grid-gap: 20px 20px ;
+    justify-content: center;
+    background-image: url(home.jpg);
+    background-color: #182c48;
+    background-repeat:no-repeat ;
+    background-size: 65%;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    height: 450px;
+    margin-bottom: 10rem;
+    
+    
+    border-radius: 1rem;
+    box-shadow: 9px 6px 30px rgb(13, 14, 43);
+    
+}
+#box2{
+    color: white;
+          display: grid;
+    grid-template-columns: repeat(1 300px);
+    grid-template-rows: repeat(3 200px);
+    grid-gap: 20px 20px ;
+    justify-content: center;
+    background-image: url(téléchargement.jpg);
+    background-color: #4974b1eb;
+    background-repeat:no-repeat ;
+    background-size: 65%;
+    grid-column-start: 4;
+    grid-column-end: 8;
+    margin-right: 7rem;
+    height: 450px;
+    margin-bottom: 10rem;
+    
+    border-radius: 1rem;
+    box-shadow: 9px 6px 30px rgb(13, 14, 43);
+}
+#box3{
+          display: grid;
+    grid-template-columns: repeat(1 300px);
+    grid-template-rows: repeat(3 200px);
+    grid-gap: 20px 20px ;
+    justify-content: center;
+    background-image: url(téléchargement\ \(1\).jpg);
+    background-size: cover ;
+    background-color: #7d98beeb;
+    background-repeat:no-repeat ;
+    background-size: 65%;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    height: 450px;
+    margin-bottom: 10rem;
+    
+    border-radius: 1rem;
+    box-shadow: 9px 6px 30px rgb(13, 14, 43);
+}
+#box4{
+         display: grid;
+    grid-template-columns: repeat(1 300px);
+    grid-template-rows: repeat(3 200px);
+    grid-gap: 20px 20px ;
+    justify-content: center;
+    background-image: url(undefined.jpg);
+    background-color: #36281deb;
+    background-repeat:no-repeat ;
+    background-size: 65%;
+      grid-column-start: 4;
+    grid-column-end: 8;
+    margin-right: 7rem;
+    height: 450px;
+    margin-bottom: 10rem;
+    
+    border-radius: 1rem;
+    box-shadow: 9px 6px 30px rgb(13, 14, 43);
+}
+#box5{
+          display: grid;
+    grid-template-columns: repeat(1 300px);
+    grid-template-rows: repeat(3 200px);
+    grid-gap: 20px 20px ;
+    justify-content: center;
+    background-image: url(undefined\ \(1\).jpg);
+    background-color: #236d33c7;
+    background-repeat:no-repeat ;
+    background-size: 65%;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    height: 450px;
+    margin-bottom: 10rem;
+    
+    border-radius: 1rem;
+    box-shadow: 9px 6px 30px rgb(13, 14, 43);
+}
+#box6{
+          display: grid;
+    grid-template-columns: repeat(1 300px);
+    grid-template-rows: repeat(3 200px);
+    grid-gap: 20px 20px ;
+    justify-content: center;
+    background-image: url(undefined\ \(2\).jpg);
+    background-color: #b7722deb;
+    background-repeat:no-repeat ;
+    background-size: 65%;
+     grid-column-start: 4;
+    grid-column-end: 8;
+    margin-right: 7rem;
+    height: 450px;
+    margin-bottom: 10rem;
+    
+    border-radius: 1rem;
+    box-shadow: 9px 6px 30px rgb(13, 14, 43);
+}
+.info{
+   
+  padding: 15px;
+  margin-top: 30px;
+  
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+.prop-info{
+    line-gap-override: 1rem;
+}
+input ,.but_con{
+  width: 35rem;
+  padding: 10px 20px;
+  border-color: #8b919a;
+  border-radius: 0.4rem;
+  text-align: center;
+  gap: 2rem; 
+  margin-left: 30rem;
+  max-width: fit-content;
+  max-height: fit-content ;
+  margin-top: 1rem; 
+ 
+}
+button{
+      background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+ .h{ text-align: center;}
+ .wrapper{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    height: 15rem;
+    width: 30rem;
+    margin-left: 25rem;
+ }
+ .wrapper img{ height: 100%;
+        width: 100%;
+        object-fit: cover;
+        transition: 400ms;
+}
+.wrapper:hover img { transform: scale(2,2);}
+.contact{
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+}
+  /* TEAM*/
+  .comuntie{
+        display: grid;
+    grid-template-columns: repeat(2 150px);
+    grid-template-rows: repeat(3 200px);
+    grid-gap: 50px 90px ;
+    justify-content: center;
+    margin-top: 30px;
+  }
+ #agent1{
+         display: grid;
+    grid-template-columns: repeat(2 150px);
+    grid-template-rows: repeat(3 200px);
+    grid-gap: 20px 20px ;
+    justify-content: center;
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-image: url(Agents.jpg);
+        background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat ;
+    margin-bottom: 10rem;
+    height: 300px;
+    width: 300px; 
+    border-radius: 41rem;
+
+  }
+
+   #agent2{
+         display: grid;
+    grid-template-columns: repeat(2 150px);
+    grid-template-rows: repeat(3 200px);
+    grid-gap: 20px 20px ;
+    justify-content: center;
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-image: url(Agents.jpg);
+        background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat ;
+    margin-bottom: 10rem;
+    height: 300px;
+    width: 300px; 
+    border-radius: 41rem;
+
+  }
+   #agent3{
+         display: grid;
+    grid-template-columns: repeat(2 150px);
+    grid-template-rows: repeat(3 200px);
+    grid-gap: 20px 20px ;
+    justify-content: center;
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-image: url(Businesswoman\ free\ icons\ designed\ by\ Eucalyp.jpg);
+        background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat ;
+    margin-bottom: 10rem;
+    height: 300px;
+    width: 300px; 
+    border-radius: 41rem;
+}
+ #agent4{
+         display: grid;
+    grid-template-columns: repeat(2 150px);
+    grid-template-rows: repeat(3 200px);
+    grid-gap: 20px 20px ;
+    justify-content: center;
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-image: url(Agents.jpg);
+        background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat ;
+    margin-bottom: 10rem;
+    height: 300px;
+    width: 300px; 
+    border-radius: 41rem;
+}
+.info-box{
+  margin-top: 2rem;
+  margin-left: 25rem;
+  margin-right: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  color: white;
+  font-family: 'MyFont', sans-serif;
+}
+.info-box-button{
+    background-color: #9a2323b4;
+    height: 3.4rem;
+    border-radius: 44rem;
+}
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('font2/DMSerifText-Italic.ttf') format('truetype');
+}
+.info-agent{
+    margin-top: 20rem;
+    text-align: center;
+}
+.line{
+    text-decoration: underline ;
+    
+}
+.card{
+    box-shadow: #2C2C2C;
+    background-color: #1c3457;
+}
